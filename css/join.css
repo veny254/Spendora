@@ -1,0 +1,53 @@
+#main{
+
+    display: flex;
+    border: none;
+    gap: 0;
+    background-color: white;
+}
+.left{
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+.right{
+    background-color:white;
+    margin: 20px;
+    padding: 20px;
+    margin-left: -1;
+}
+button{
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+
+    
+    padding-left: 40px;
+    padding-right: 90px;
+    text-align: center;
+    color: white;
+    display: block;
+    width: max-content;
+    a{
+        color: white;
+    
+        width: max-content;
+        
+    }
+#rightb{
+    padding-left: 50%;
+}
+}
+body{
+    background-color: aliceblue;
+}
+img{
+    width: 4%;
+    padding-left: 25px;
+}
+input[type='password'],input[type='email'],input[type='text']{
+    background-color: aliceblue;
+    border: none;
+}

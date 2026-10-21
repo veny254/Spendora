@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Part</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <form action="">
+        <caption></caption>
+      <legend> Regster with Us!!</legend>
+      <br> 
+
+      <label for="name">Enter Your full Name</label>
+      <input type="text"  placeholder=" eg. John Deo" id="name"  required>
+      <br><br>
+      <label for="phone">Enter Phone NO</label>
+      <input type="tel" placeholder="0789654321" id="phone" required maxlength="10">
+      <br><br><br>
+      <label for="address"> Enter Email</label>
+      <input type="email" placeholder="venrt@gmail.com" required id="address">
+      <br><br><br>
+      <label for="ps">Password</label>
+      <input type="password" placeholder="257gdr@g" required id="ps">
+      <br><br><br>
+      <label for="birth">Year Of Birth</label>
+      <input type="date" placeholder="11/11/2026" required id="birth">
+      <br><br><br>
+      <label for="dt">Date and Time</label>
+      <input type="datetime-local" id="dt" required>
+      <br><br><br>
+      <label for="file">Upload Your Photo</label>
+      <input type="file" id="file" required>
+
+      <!-- DrpoDown-- -->
+
+       <label for="devices">Where Do you listen music?</label>
+       <select name="devices" id="devices">
+        <option value="">Radio</option>
+        <option value="">Phone</option>
+        <option value="">Itubes</option>
+        <option value="">Drum</option>
+
+
+
+       </select>
+       <!--RadioButton-->
+       <h3>what tech school do you  prefer?</h3>
+       <div>
+        <label for="moringa">moringa school</label>
+        <input type="radio" id="moringa" name="shcool" value="moringa_track">
+       </div>
+       <div>
+        <label for="emobilis">emobilis Institute</label>
+        <input type="radio" id="emobilis" name="shcool" value="emobilis _track" >
+       </div>
+       
+
+
+
+
+       
+       <!--- CHeckbuton-->
+       <h3>Which is your best programming language?</h3>
+       <div>
+        <label for="programming">Python</label>
+        <input type="checkbox" id="programming" value="Python" name="language" required>
+        </div>
+        <div>
+            <label for="prgramming">Java</label>
+            <input type="checkbox" id="prgramming" name="language" value="Java" required>
+        </div>
+       <!--Textarea-->
+       <h3>What is your experience with emobilis?</h3>
+       <label for="feedback">wrie your feedback</label>
+       <textarea name="user feedback" id="feedback"  rows="4" cols="50" required></textarea>
+       <br>
+       <button>Register</button>
+
+
+
+
+    </form>
+    
+</body>
+</html>
